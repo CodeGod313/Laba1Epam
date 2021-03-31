@@ -1,6 +1,5 @@
 package by.shpak.laba1.service;
 
-import by.shpak.laba1.Controllers.RestControllers.CylinderController;
 import org.apache.log4j.Logger;
 import org.springframework.stereotype.Service;
 

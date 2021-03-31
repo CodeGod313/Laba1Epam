@@ -1,6 +1,7 @@
-package by.shpak.laba1.Controllers.RestControllers;
+package by.shpak.laba1.Controllers.rest;
 
 import by.shpak.laba1.cache.Cache;
+import by.shpak.laba1.counter.Counter;
 import by.shpak.laba1.dto.CylinderDTO;
 import by.shpak.laba1.dto.QueryContainer;
 import by.shpak.laba1.exceptions.NegativeParameterException;
@@ -10,7 +11,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.method.annotation.MethodArgumentTypeMismatchException;
 
 @RestController
 public class CylinderController {
@@ -24,6 +24,7 @@ public class CylinderController {
             throws NegativeParameterException {
         if (radius <= 0 || height <= 0) throw new NegativeParameterException();
         QueryContainer queryContainer = new QueryContainer(radius, height);
+        Counter.inc();
         if (Cache.getFromCache(queryContainer) != null) {
             return Cache.getFromCache(queryContainer);
         }

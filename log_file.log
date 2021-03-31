@@ -1,16 +1,227 @@
-2021-03-31 05:58:17 INFO  CylinderService:11 - calculating cylinder's value
-2021-03-31 05:58:17 INFO  CylinderController:27 - putting calculated volume in cache
-2021-03-31 05:58:24 INFO  CylinderController:23 - getting value from cache
-2021-03-31 05:58:35 INFO  CylinderService:11 - calculating cylinder's value
-2021-03-31 05:58:35 INFO  CylinderController:27 - putting calculated volume in cache
-2021-03-31 05:58:39 INFO  CylinderController:23 - getting value from cache
-2021-03-31 06:03:25 ERROR MissingParameterExceptionHandler:18 - heightis missing
-2021-03-31 06:10:48 ERROR MissingParameterExceptionHandler:18 - radiusis missing
-2021-03-31 06:10:58 INFO  CylinderService:11 - calculating cylinder's value
-2021-03-31 06:10:58 INFO  CylinderController:27 - putting calculated volume in cache
-2021-03-31 06:12:22 INFO  CylinderService:11 - calculating cylinder's value
-2021-03-31 06:12:22 INFO  CylinderController:27 - putting calculated volume in cache
-2021-03-31 06:12:32 INFO  CylinderService:11 - calculating cylinder's value
-2021-03-31 06:12:32 INFO  CylinderController:27 - putting calculated volume in cache
-2021-03-31 06:34:34 ERROR NegativeParameterExceptionsHandler:16 - Found negative parameters
-2021-03-31 06:34:44 ERROR MethodArgumentTypeMismatchExceptionHandler:17 - Invalid input
+2021-03-31 07:19:15 INFO  Counter:10 - counter incremented, current value: 1
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  CylinderService:10 - calculating cylinder's value
+2021-03-31 07:19:15 INFO  Cache:20 - putting calculated value in cache
+2021-03-31 07:19:15 INFO  CylinderController:33 - return GTO
+2021-03-31 07:19:15 INFO  Counter:10 - counter incremented, current value: 2
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Counter:10 - counter incremented, current value: 3
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Counter:10 - counter incremented, current value: 4
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Counter:10 - counter incremented, current value: 5
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Counter:10 - counter incremented, current value: 6
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Counter:10 - counter incremented, current value: 7
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Counter:10 - counter incremented, current value: 8
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Counter:10 - counter incremented, current value: 9
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Counter:10 - counter incremented, current value: 10
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Counter:10 - counter incremented, current value: 11
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Counter:10 - counter incremented, current value: 12
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Counter:10 - counter incremented, current value: 13
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Counter:10 - counter incremented, current value: 14
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Counter:10 - counter incremented, current value: 15
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Counter:10 - counter incremented, current value: 16
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Counter:10 - counter incremented, current value: 17
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Counter:10 - counter incremented, current value: 18
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Counter:10 - counter incremented, current value: 19
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Counter:10 - counter incremented, current value: 20
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Counter:10 - counter incremented, current value: 21
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Counter:10 - counter incremented, current value: 22
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Counter:10 - counter incremented, current value: 23
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Counter:10 - counter incremented, current value: 24
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Counter:10 - counter incremented, current value: 25
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Counter:10 - counter incremented, current value: 26
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Counter:10 - counter incremented, current value: 27
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Counter:10 - counter incremented, current value: 28
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Counter:10 - counter incremented, current value: 29
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Counter:10 - counter incremented, current value: 30
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Counter:10 - counter incremented, current value: 31
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Counter:10 - counter incremented, current value: 32
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Counter:10 - counter incremented, current value: 33
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Counter:10 - counter incremented, current value: 34
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Counter:10 - counter incremented, current value: 35
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Counter:10 - counter incremented, current value: 36
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Counter:10 - counter incremented, current value: 37
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Counter:10 - counter incremented, current value: 38
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Counter:10 - counter incremented, current value: 39
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Counter:10 - counter incremented, current value: 40
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Counter:10 - counter incremented, current value: 41
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Counter:10 - counter incremented, current value: 42
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Counter:10 - counter incremented, current value: 43
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Counter:10 - counter incremented, current value: 44
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Counter:10 - counter incremented, current value: 45
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Counter:10 - counter incremented, current value: 46
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Counter:10 - counter incremented, current value: 47
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Counter:10 - counter incremented, current value: 48
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Counter:10 - counter incremented, current value: 49
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Counter:10 - counter incremented, current value: 50
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Counter:10 - counter incremented, current value: 51
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Counter:10 - counter incremented, current value: 52
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Counter:10 - counter incremented, current value: 53
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Counter:10 - counter incremented, current value: 54
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Counter:10 - counter incremented, current value: 55
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Counter:10 - counter incremented, current value: 56
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Counter:10 - counter incremented, current value: 57
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Counter:10 - counter incremented, current value: 58
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Counter:10 - counter incremented, current value: 59
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Counter:10 - counter incremented, current value: 60
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Counter:10 - counter incremented, current value: 61
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Counter:10 - counter incremented, current value: 62
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Counter:10 - counter incremented, current value: 63
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Counter:10 - counter incremented, current value: 64
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Counter:10 - counter incremented, current value: 65
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Counter:10 - counter incremented, current value: 66
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Counter:10 - counter incremented, current value: 67
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Counter:10 - counter incremented, current value: 68
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Counter:10 - counter incremented, current value: 69
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Counter:10 - counter incremented, current value: 70
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Counter:10 - counter incremented, current value: 71
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Counter:10 - counter incremented, current value: 72
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Counter:10 - counter incremented, current value: 73
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Counter:10 - counter incremented, current value: 74
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Counter:10 - counter incremented, current value: 75
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache
+2021-03-31 07:19:15 INFO  Cache:15 - getting value from cache

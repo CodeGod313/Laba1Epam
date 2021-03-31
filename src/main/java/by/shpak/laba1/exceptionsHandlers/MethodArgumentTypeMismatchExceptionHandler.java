@@ -1,4 +1,4 @@
-package by.shpak.laba1.ExceptionsHandlers;
+package by.shpak.laba1.exceptionsHandlers;
 
 import org.apache.log4j.Logger;
 import org.springframework.http.HttpStatus;
