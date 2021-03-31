@@ -1,34 +1,16 @@
-2021-03-11 16:38:04 INFO  CylinderController:16 - pizdec
-2021-03-11 16:38:18 INFO  CylinderController:16 - pizdec
-2021-03-11 21:42:50 INFO  CylinderController:16 - pizdec
-2021-03-11 21:42:53 INFO  CylinderController:16 - pizdec
-2021-03-11 21:42:55 INFO  CylinderController:16 - pizdec
-2021-03-11 21:43:02 INFO  CylinderController:16 - pizdec
-2021-03-11 21:43:02 INFO  CylinderController:16 - pizdec
-2021-03-11 21:43:02 INFO  CylinderController:16 - pizdec
-2021-03-11 21:43:03 INFO  CylinderController:16 - pizdec
-2021-03-11 21:57:12 INFO  CylinderController:16 - pizdec
-2021-03-11 21:57:14 INFO  CylinderController:16 - pizdec
-2021-03-11 21:57:14 INFO  CylinderController:16 - pizdec
-2021-03-11 21:57:15 INFO  CylinderController:16 - pizdec
-2021-03-11 21:57:15 INFO  CylinderController:16 - pizdec
-2021-03-11 21:57:16 INFO  CylinderController:16 - pizdec
-2021-03-11 21:57:16 INFO  CylinderController:16 - pizdec
-2021-03-11 21:57:19 INFO  CylinderController:16 - pizdec
-2021-03-11 21:57:19 INFO  CylinderController:16 - pizdec
-2021-03-11 21:57:19 INFO  CylinderController:16 - pizdec
-2021-03-11 21:57:19 INFO  CylinderController:16 - pizdec
-2021-03-11 21:57:21 INFO  CylinderController:16 - pizdec
-2021-03-11 21:57:21 INFO  CylinderController:16 - pizdec
-2021-03-11 21:57:22 INFO  CylinderController:16 - pizdec
-2021-03-11 21:57:22 INFO  CylinderController:16 - pizdec
-2021-03-11 21:57:22 INFO  CylinderController:16 - pizdec
-2021-03-11 21:57:31 INFO  CylinderController:16 - pizdec
-2021-03-11 21:57:31 INFO  CylinderController:16 - pizdec
-2021-03-11 21:57:31 INFO  CylinderController:16 - pizdec
-2021-03-11 21:57:31 INFO  CylinderController:16 - pizdec
-2021-03-11 21:57:31 INFO  CylinderController:16 - pizdec
-2021-03-11 21:57:31 INFO  CylinderController:16 - pizdec
-2021-03-11 21:57:32 INFO  CylinderController:16 - pizdec
-2021-03-11 21:57:32 INFO  CylinderController:16 - pizdec
-2021-03-11 22:52:33 INFO  CylinderController:15 - pizdec
+2021-03-31 05:58:17 INFO  CylinderService:11 - calculating cylinder's value
+2021-03-31 05:58:17 INFO  CylinderController:27 - putting calculated volume in cache
+2021-03-31 05:58:24 INFO  CylinderController:23 - getting value from cache
+2021-03-31 05:58:35 INFO  CylinderService:11 - calculating cylinder's value
+2021-03-31 05:58:35 INFO  CylinderController:27 - putting calculated volume in cache
+2021-03-31 05:58:39 INFO  CylinderController:23 - getting value from cache
+2021-03-31 06:03:25 ERROR MissingParameterExceptionHandler:18 - heightis missing
+2021-03-31 06:10:48 ERROR MissingParameterExceptionHandler:18 - radiusis missing
+2021-03-31 06:10:58 INFO  CylinderService:11 - calculating cylinder's value
+2021-03-31 06:10:58 INFO  CylinderController:27 - putting calculated volume in cache
+2021-03-31 06:12:22 INFO  CylinderService:11 - calculating cylinder's value
+2021-03-31 06:12:22 INFO  CylinderController:27 - putting calculated volume in cache
+2021-03-31 06:12:32 INFO  CylinderService:11 - calculating cylinder's value
+2021-03-31 06:12:32 INFO  CylinderController:27 - putting calculated volume in cache
+2021-03-31 06:34:34 ERROR NegativeParameterExceptionsHandler:16 - Found negative parameters
+2021-03-31 06:34:44 ERROR MethodArgumentTypeMismatchExceptionHandler:17 - Invalid input
