@@ -6,6 +6,14 @@ public class QueryContainer {
     private final double radius;
     private final double height;
 
+    public double getRadius() {
+        return radius;
+    }
+
+    public double getHeight() {
+        return height;
+    }
+
     public QueryContainer(double radius, double height) {
         this.radius = radius;
         this.height = height;
