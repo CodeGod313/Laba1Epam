@@ -1,8 +1,19 @@
 package by.shpak.laba1.dto;
 
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 import java.util.Objects;
 
+
+@Entity
 public class QueryContainer {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
     private final double radius;
     private final double height;
 
@@ -17,6 +28,11 @@ public class QueryContainer {
     public QueryContainer(double radius, double height) {
         this.radius = radius;
         this.height = height;
+    }
+
+    public QueryContainer() {
+        radius = 1;
+        height = 1;
     }
 
     @Override

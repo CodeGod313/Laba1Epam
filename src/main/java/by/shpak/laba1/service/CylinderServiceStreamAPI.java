@@ -1,8 +1,10 @@
 package by.shpak.laba1.service;
 
+import by.shpak.laba1.cache.Cache;
 import by.shpak.laba1.dto.CylinderDTO;
 import by.shpak.laba1.dto.CylinderDTOListStat;
 import by.shpak.laba1.dto.QueryContainer;
+import org.jetbrains.annotations.NotNull;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -14,14 +16,23 @@ import java.util.stream.Collectors;
 
 @Service
 public class CylinderServiceStreamAPI {
+
     @Autowired
     CylinderService cylinderService;
-    public List<CylinderDTO> CalculateVolumeList(List<QueryContainer> queryContainerList){
+
+    public List<CylinderDTO> CalculateVolumeList(@NotNull List<QueryContainer> queryContainerList){
         return queryContainerList
                 .stream()
-                .map(x->new CylinderDTO(x.getRadius(), x.getHeight(), cylinderService.calculateVolume(x.getRadius(),x.getHeight())))
+                .map(x->{
+                    if(Cache.getFromCache(x)!= null)
+                        return Cache.getFromCache(x);
+                    CylinderDTO cylinderDTO = new CylinderDTO(x.getRadius(), x.getHeight(), cylinderService.calculateVolume(x.getRadius(),x.getHeight()));
+                    Cache.putInCache(x, cylinderDTO);
+                    return cylinderDTO;
+                })
                 .collect(Collectors.toList());
     }
+
     public CylinderDTOListStat CalculateVolumeListStat(List<QueryContainer> queryContainerList){
         List<CylinderDTO> outList = CalculateVolumeList(queryContainerList);
         int unique = new HashSet<>(queryContainerList)
