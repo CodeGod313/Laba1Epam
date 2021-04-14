@@ -23,13 +23,7 @@ public class CylinderServiceStreamAPI {
     public List<CylinderDTO> CalculateVolumeList(@NotNull List<QueryContainer> queryContainerList){
         return queryContainerList
                 .stream()
-                .map(x->{
-                    if(Cache.getFromCache(x)!= null)
-                        return Cache.getFromCache(x);
-                    CylinderDTO cylinderDTO = new CylinderDTO(x.getRadius(), x.getHeight(), cylinderService.calculateVolume(x.getRadius(),x.getHeight()));
-                    Cache.putInCache(x, cylinderDTO);
-                    return cylinderDTO;
-                })
+                .map(x->cylinderService.calculateVolume(x))
                 .collect(Collectors.toList());
     }
 
