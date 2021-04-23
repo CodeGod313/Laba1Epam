@@ -1,6 +1,5 @@
 package by.shpak.laba1.Controllers.rest;
 
-import by.shpak.laba1.cache.Cache;
 import by.shpak.laba1.counter.Counter;
 import by.shpak.laba1.dto.CylinderDTO;
 import by.shpak.laba1.dto.CylinderDTOListStat;
@@ -9,6 +8,7 @@ import by.shpak.laba1.dto.VolumeDTO;
 import by.shpak.laba1.exceptions.AlreadyTakenIdException;
 import by.shpak.laba1.exceptions.NegativeParameterException;
 import by.shpak.laba1.exceptions.WrongIdException;
+import by.shpak.laba1.repos.CylinderDTOListStatRepository;
 import by.shpak.laba1.repos.VolumeDTORepository;
 import by.shpak.laba1.service.CylinderService;
 import by.shpak.laba1.service.CylinderServiceAsync;
@@ -18,6 +18,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.concurrent.CompletableFuture;
 
 @RestController
 @RequestMapping("/cylinderValue")
@@ -33,6 +34,9 @@ public class CylinderController {
 
     @Autowired
     VolumeDTORepository volumeDTORepository;
+
+    @Autowired
+    CylinderDTOListStatRepository cylinderDTOListStatRepository;
 
 
     private static final Logger logger = Logger.getLogger(CylinderController.class);
@@ -53,6 +57,16 @@ public class CylinderController {
     public List<CylinderDTO> calculateCylinderVolumeBulk(@RequestBody  List<QueryContainer> queryContainerList){
         Counter.inc();
         return cylinderServiceStreamAPI.CalculateVolumeList(queryContainerList);
+    }
+
+    @PostMapping("/countViaJSONListAsync")
+    public void calculateCylinderVolumeBulkAsync(@RequestBody  List<QueryContainer> queryContainerList,
+                                                 @RequestParam(value = "id") Long id){
+        Counter.inc();
+        CompletableFuture.supplyAsync(()->cylinderServiceStreamAPI
+                .CalculateVolumeListStat(queryContainerList))
+                .thenApply((x)->cylinderDTOListStatRepository
+                        .save((x)));
     }
 
     @PostMapping("/countViaJSONListStat")
@@ -78,6 +92,12 @@ public class CylinderController {
         if(volumeDTORepository.existsById(id))
             return volumeDTORepository.findById(id).get();
         else throw new WrongIdException();
+    }
+
+    @GetMapping("/getVolumeByIdList")
+    public CylinderDTOListStat getVolumeByIdList(@RequestParam(value = "id") Long id)  {
+        Counter.inc();
+        return cylinderDTOListStatRepository.findById(id).get();
     }
 
 }

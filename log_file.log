@@ -133,3 +133,33 @@
 2021-04-14 07:00:40 INFO  CylinderController:47 - return GTO
 2021-04-14 07:00:40 INFO  Cache:45 - getting value from cache
 2021-04-14 07:00:40 INFO  CylinderService:16 - calculating cylinder's value
+2021-04-14 09:29:20 INFO  Counter:10 - counter incremented, current value: 1
+2021-04-14 09:29:20 INFO  Cache:45 - getting value from cache
+2021-04-14 09:29:20 INFO  CylinderService:16 - calculating cylinder's value
+2021-04-14 09:29:20 INFO  Cache:45 - getting value from cache
+2021-04-14 09:29:20 INFO  CylinderService:16 - calculating cylinder's value
+2021-04-14 09:29:20 INFO  Cache:45 - getting value from cache
+2021-04-14 09:29:20 INFO  CylinderService:16 - calculating cylinder's value
+2021-04-14 09:29:36 INFO  Counter:10 - counter incremented, current value: 2
+2021-04-14 09:29:36 INFO  Cache:45 - getting value from cache
+2021-04-14 09:29:36 INFO  CylinderService:16 - calculating cylinder's value
+2021-04-14 09:29:36 INFO  Cache:45 - getting value from cache
+2021-04-14 09:29:36 INFO  CylinderService:16 - calculating cylinder's value
+2021-04-14 09:29:36 INFO  Cache:45 - getting value from cache
+2021-04-14 09:29:36 INFO  CylinderService:16 - calculating cylinder's value
+2021-04-14 09:30:39 INFO  Counter:10 - counter incremented, current value: 3
+2021-04-14 09:30:39 INFO  CylinderServiceAsync:25 - Starting new thread
+2021-04-14 09:30:39 INFO  Cache:45 - getting value from cache
+2021-04-14 09:30:39 INFO  CylinderService:16 - calculating cylinder's value
+2021-04-14 09:31:00 INFO  Counter:10 - counter incremented, current value: 4
+2021-04-14 09:31:00 ERROR AlreadyTakenIdExceptionHandler:18 - This id is already taken
+2021-04-14 09:31:08 INFO  Counter:10 - counter incremented, current value: 5
+2021-04-14 09:31:16 INFO  Counter:10 - counter incremented, current value: 6
+2021-04-14 09:31:16 ERROR WrongIdExceptionHandler:17 - Wrong id entered
+2021-04-23 16:32:33 INFO  Counter:10 - counter incremented, current value: 1
+2021-04-23 16:32:33 INFO  Cache:45 - getting value from cache
+2021-04-23 16:32:33 INFO  CylinderService:16 - calculating cylinder's value
+2021-04-23 16:32:33 INFO  Cache:45 - getting value from cache
+2021-04-23 16:32:33 INFO  CylinderService:16 - calculating cylinder's value
+2021-04-23 16:32:33 INFO  Cache:45 - getting value from cache
+2021-04-23 16:32:33 INFO  CylinderService:16 - calculating cylinder's value
